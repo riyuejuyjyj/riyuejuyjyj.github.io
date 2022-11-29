@@ -6,7 +6,7 @@
   <link href="http://riyuejuyjyj.github.io/atom.xml" rel="self"/>
   
   <link href="http://riyuejuyjyj.github.io/"/>
-  <updated>2022-11-21T00:46:21.926Z</updated>
+  <updated>2022-11-29T03:13:55.548Z</updated>
   <id>http://riyuejuyjyj.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>5.函数相关</title>
+    <link href="http://riyuejuyjyj.github.io/posts/826f8a5f.html"/>
+    <id>http://riyuejuyjyj.github.io/posts/826f8a5f.html</id>
+    <published>2022-11-29T02:28:00.000Z</published>
+    <updated>2022-11-29T03:13:55.548Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="5-函数相关"><a href="#5-函数相关" class="headerlink" title="5.函数相关"></a>5.函数相关</h1><h2 id="函数的定义"><a href="#函数的定义" class="headerlink" title="函数的定义"></a>函数的定义</h2><p>func 函数名(参数1 参数1类型，参数2 参数2类型) （返回类型1，返回类型 2） {</p><p>}</p><h3 id="1-正常定义"><a href="#1-正常定义" class="headerlink" title="1.正常定义"></a>1.正常定义</h3><figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">sumFn1</span><span class="params">(a <span class="type">int</span>,b <span class="type">int</span>)</span></span> <span class="type">int</span>&#123;</span><br><span class="line">  <span class="keyword">return</span> a+b</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">  <span class="keyword">var</span> sum=sumFn1(<span class="number">1</span>,<span class="number">2</span>) <span class="comment">//调用函数</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><blockquote><p>当然当返回值为空时，参数后面不写类型即可</p></blockquote><h3 id="2-接受多个未知参数"><a href="#2-接受多个未知参数" class="headerlink" title="2.接受多个未知参数"></a>2.接受多个未知参数</h3><figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">sumFn2</span>（<span class="title">a</span> ...<span class="title">int</span>）<span class="title">int</span></span>&#123;</span><br><span class="line">sum:=<span class="number">0</span></span><br><span class="line">   <span class="keyword">for</span> _,v:=<span class="keyword">range</span> a&#123;</span><br><span class="line">     sum+=v</span><br><span class="line">   &#125;</span><br><span class="line">   <span class="keyword">return</span> v</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">  <span class="keyword">var</span> sum=sumFn2(<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">5</span>,<span class="number">6</span>,<span class="number">4</span>,<span class="number">8</span>)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>简单的理解就是1，2，3，…这些数据构成了一个切片a,但如果时这样的情况<br><strong>func sumFn2(a int,b …int)</strong>,那么a的值就是1，其余的值归为切片sliceb</p><h3 id="3-指定返回的变量"><a href="#3-指定返回的变量" class="headerlink" title="3.指定返回的变量"></a>3.指定返回的变量</h3><figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">calc1</span><span class="params">(a <span class="type">int</span>,b <span class="type">int</span>)</span></span> (sum <span class="type">int</span>,sub <span class="type">int</span>)&#123;</span><br><span class="line">  sum=a+b</span><br><span class="line">  sub=a-b</span><br><span class="line">  <span class="keyword">return</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">  <span class="keyword">var</span> sum,sub=sumFn1(<span class="number">1</span>,<span class="number">2</span>) <span class="comment">//调用函数</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>从代码中也是很好理解的我们指定了返回变量sum，sub，计算出他们的值后，我们直接return就行</p><h3 id="4-参数类型为切片"><a href="#4-参数类型为切片" class="headerlink" title="4.参数类型为切片"></a>4.参数类型为切片</h3><figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">calc2</span><span class="params">(slice_a []<span class="type">int</span>)</span></span> []<span class="type">int</span>&#123;</span><br><span class="line">    sort.Ints(slice_a) <span class="comment">//对slice_a排序</span></span><br><span class="line">    <span class="keyword">return</span> slice_a</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">  slice_a:=[]<span class="type">int</span>&#123;<span class="number">1</span>,<span class="number">2</span>,<span class="number">5</span>,<span class="number">89</span>,<span class="number">4</span>,<span class="number">56</span>&#125;</span><br><span class="line">  slice_a=calc1(slice_a)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>这个也没啥好说的注意以下咋写的就行</p><h3 id="5-参数类型为map"><a href="#5-参数类型为map" class="headerlink" title="5.参数类型为map"></a>5.参数类型为map</h3><figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">calc3</span><span class="params">(map1 <span class="keyword">map</span>[<span class="type">string</span>]<span class="type">string</span>)</span></span> &#123;</span><br><span class="line">  <span class="comment">//记录map的key值</span></span><br><span class="line">  slice_key:=[]<span class="type">string</span>&#123;&#125;</span><br><span class="line">  <span class="keyword">for</span> k,_:= <span class="keyword">range</span> map1&#123;</span><br><span class="line">    slice_key=<span class="built_in">append</span>(slice_key,k)</span><br><span class="line">  &#125;</span><br><span class="line">  sort.Strings(slice_key)<span class="comment">//对key值进行排序</span></span><br><span class="line">  <span class="keyword">for</span> _,v:=<span class="keyword">range</span> slice_key&#123;</span><br><span class="line">    fmt.Printf(<span class="string">&quot;%v:%v &quot;</span>,slice_key,map1[slice_key])</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">  map1:=<span class="keyword">map</span>[<span class="type">string</span>]<span class="type">string</span>&#123;</span><br><span class="line">   <span class="string">&quot;username&quot;</span>: <span class="string">&quot;张三&quot;</span>,</span><br><span class="line"><span class="string">&quot;password&quot;</span>: <span class="string">&quot;1234&quot;</span>,</span><br><span class="line"><span class="string">&quot;age&quot;</span>:     <span class="string">&quot;30&quot;</span>,</span><br><span class="line"><span class="string">&quot;height&quot;</span>:   <span class="string">&quot;180&quot;</span>,</span><br><span class="line"><span class="string">&quot;weight&quot;</span>:   <span class="string">&quot;50&quot;</span>,</span><br><span class="line">  &#125;</span><br><span class="line">  calc3(map1)</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//输出结果：age:30 height:180 password:1234 username:张三 weight:50 </span></span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;5-函数相关&quot;&gt;&lt;a href=&quot;#5-函数相关&quot; class=&quot;headerlink&quot; title=&quot;5.函数相关&quot;&gt;&lt;/a&gt;5.函数相关&lt;/h1&gt;&lt;h2 id=&quot;函数的定义&quot;&gt;&lt;a href=&quot;#函数的定义&quot; class=&quot;headerlink&quot; title=</summary>
+      
+    
+    
+    
+    <category term="go" scheme="http://riyuejuyjyj.github.io/categories/go/"/>
+    
+    
+    <category term="go" scheme="http://riyuejuyjyj.github.io/tags/go/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
@@ -284,35 +308,6 @@
   </entry>
   
   <entry>
-    <title>test1</title>
-    <link href="http://riyuejuyjyj.github.io/posts/8ab2dce2.html"/>
-    <id>http://riyuejuyjyj.github.io/posts/8ab2dce2.html</id>
-    <published>2022-11-05T11:20:30.000Z</published>
-    <updated>2022-11-21T00:46:21.920Z</updated>
-    
-    <content type="html"><![CDATA[<hr><hr><h1 id="夏至"><a href="#夏至" class="headerlink" title="夏至"></a>夏至</h1><blockquote><p>一生的时间很短<br>短到不过是两颗新之间</p></blockquote><div class="tip "><p>default</p></div>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;hr&gt;
-&lt;hr&gt;
-&lt;h1 id=&quot;夏至&quot;&gt;&lt;a href=&quot;#夏至&quot; class=&quot;headerlink&quot; title=&quot;夏至&quot;&gt;&lt;/a&gt;夏至&lt;/h1&gt;&lt;blockquote&gt;
-&lt;p&gt;一生的时间很短&lt;br&gt;短到不过是两颗新之间&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;div cl</summary>
-      
-    
-    
-    
-    <category term="生活" scheme="http://riyuejuyjyj.github.io/categories/%E7%94%9F%E6%B4%BB/"/>
-    
-    
-    <category term="lives" scheme="http://riyuejuyjyj.github.io/tags/lives/"/>
-    
-  </entry>
-  
-  <entry>
     <title>阳光正好</title>
     <link href="http://riyuejuyjyj.github.io/posts/9520.html"/>
     <id>http://riyuejuyjyj.github.io/posts/9520.html</id>
@@ -330,6 +325,35 @@
 &lt;p&gt;一生的时间很短&lt;br&gt; 短到不过是两颗新之间&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;div c</summary>
+      
+    
+    
+    
+    <category term="生活" scheme="http://riyuejuyjyj.github.io/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+    <category term="lives" scheme="http://riyuejuyjyj.github.io/tags/lives/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>test1</title>
+    <link href="http://riyuejuyjyj.github.io/posts/8ab2dce2.html"/>
+    <id>http://riyuejuyjyj.github.io/posts/8ab2dce2.html</id>
+    <published>2022-11-05T11:20:30.000Z</published>
+    <updated>2022-11-21T00:46:21.920Z</updated>
+    
+    <content type="html"><![CDATA[<hr><hr><h1 id="夏至"><a href="#夏至" class="headerlink" title="夏至"></a>夏至</h1><blockquote><p>一生的时间很短<br>短到不过是两颗新之间</p></blockquote><div class="tip "><p>default</p></div>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;hr&gt;
+&lt;hr&gt;
+&lt;h1 id=&quot;夏至&quot;&gt;&lt;a href=&quot;#夏至&quot; class=&quot;headerlink&quot; title=&quot;夏至&quot;&gt;&lt;/a&gt;夏至&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;一生的时间很短&lt;br&gt;短到不过是两颗新之间&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div cl</summary>
       
     
     

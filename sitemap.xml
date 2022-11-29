@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://riyuejuyjyj.github.io/posts/826f8a5f.html</loc>
+    
+    <lastmod>2022-11-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://riyuejuyjyj.github.io/posts/be8242ff.html</loc>
     
     <lastmod>2022-11-29</lastmod>
@@ -210,13 +219,6 @@
   </url>
   
   <url>
-    <loc>http://riyuejuyjyj.github.io/tags/games/</loc>
-    <lastmod>2022-11-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://riyuejuyjyj.github.io/tags/lifes/</loc>
     <lastmod>2022-11-29</lastmod>
     <changefreq>weekly</changefreq>
@@ -225,6 +227,13 @@
   
   <url>
     <loc>http://riyuejuyjyj.github.io/tags/lives/</loc>
+    <lastmod>2022-11-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://riyuejuyjyj.github.io/tags/games/</loc>
     <lastmod>2022-11-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -261,14 +270,14 @@
   </url>
   
   <url>
-    <loc>http://riyuejuyjyj.github.io/categories/%E6%B8%B8%E6%88%8F/</loc>
+    <loc>http://riyuejuyjyj.github.io/categories/%E7%94%9F%E6%B4%BB/</loc>
     <lastmod>2022-11-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://riyuejuyjyj.github.io/categories/%E7%94%9F%E6%B4%BB/</loc>
+    <loc>http://riyuejuyjyj.github.io/categories/%E6%B8%B8%E6%88%8F/</loc>
     <lastmod>2022-11-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
