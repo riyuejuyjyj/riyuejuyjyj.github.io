@@ -6,7 +6,7 @@
   <link href="http://riyuejuyjyj.github.io/atom.xml" rel="self"/>
   
   <link href="http://riyuejuyjyj.github.io/"/>
-  <updated>2022-11-27T06:29:56.221Z</updated>
+  <updated>2022-11-21T00:46:21.926Z</updated>
   <id>http://riyuejuyjyj.github.io/</id>
   
   <author>
@@ -15,46 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>test_deploy</title>
-    <link href="http://riyuejuyjyj.github.io/posts/5e23fd4.html"/>
-    <id>http://riyuejuyjyj.github.io/posts/5e23fd4.html</id>
-    <published>2022-11-27T06:29:50.000Z</published>
-    <updated>2022-11-27T06:29:56.221Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="test-deploty"><a href="#test-deploty" class="headerlink" title="test deploty"></a>test deploty</h1>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1 id=&quot;test-deploty&quot;&gt;&lt;a href=&quot;#test-deploty&quot; class=&quot;headerlink&quot; title=&quot;test deploty&quot;&gt;&lt;/a&gt;test deploty&lt;/h1&gt;</summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title></title>
-    <link href="http://riyuejuyjyj.github.io/posts/0.html"/>
-    <id>http://riyuejuyjyj.github.io/posts/0.html</id>
-    <published>2022-11-27T05:41:14.068Z</published>
-    <updated>2022-11-27T05:41:39.824Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="woshisb"><a href="#woshisb" class="headerlink" title="woshisb"></a>woshisb</h1>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1 id=&quot;woshisb&quot;&gt;&lt;a href=&quot;#woshisb&quot; class=&quot;headerlink&quot; title=&quot;woshisb&quot;&gt;&lt;/a&gt;woshisb&lt;/h1&gt;</summary>
-      
-    
-    
-    
-    
-  </entry>
   
   <entry>
     <title>Hello World</title>
@@ -84,8 +44,8 @@
     <title>4.map</title>
     <link href="http://riyuejuyjyj.github.io/posts/be8242ff.html"/>
     <id>http://riyuejuyjyj.github.io/posts/be8242ff.html</id>
-    <published>2022-11-26T08:20:30.000Z</published>
-    <updated>2022-11-26T08:54:18.270Z</updated>
+    <published>2022-11-26T08:20:00.000Z</published>
+    <updated>2022-11-29T01:20:05.028Z</updated>
     
     <content type="html"><![CDATA[<h1 id="04-map"><a href="#04-map" class="headerlink" title="04 map"></a>04 map</h1><p>map其实就像是一种映射，c里面的map，python的字典感觉</p><h2 id="map一些简单的操作"><a href="#map一些简单的操作" class="headerlink" title="map一些简单的操作"></a>map一些简单的操作</h2><p><strong>通过make函数定义</strong></p><figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> userinfo=<span class="built_in">make</span>(<span class="keyword">map</span>[<span class="type">string</span>]<span class="type">string</span>) </span><br></pre></td></tr></table></figure><p>中括号里的是键，外面的是值</p><figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//添加键值对</span></span><br><span class="line">userinfo[<span class="string">&quot;username&quot;</span>]=<span class="string">&quot;张三&quot;</span></span><br><span class="line">userinfo[<span class="string">&quot;age&quot;</span>]=<span class="string">&quot;20&quot;</span></span><br></pre></td></tr></table></figure><p>当然也可以这样定义</p><figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> userinfo2=<span class="built_in">make</span>(<span class="keyword">map</span>[<span class="type">string</span>]<span class="type">string</span>)&#123;</span><br><span class="line">    <span class="string">&quot;username&quot;</span>:<span class="string">&quot;zhangsan&quot;</span>,</span><br><span class="line">    <span class="string">&quot;age&quot;</span>:<span class="string">&quot;20&quot;</span>,</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p><strong>map也是引用类型数据</strong></p><p>判断某个键是否存在</p><figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">v,ok:=userinfo[<span class="string">&quot;password&quot;</span>] <span class="comment">//v是值，ok是bool类型</span></span><br></pre></td></tr></table></figure><p>删除某个键</p><figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">delete</span>(userinfo,<span class="string">&quot;username&quot;</span>)</span><br></pre></td></tr></table></figure><h2 id="map类型的切片"><a href="#map类型的切片" class="headerlink" title="map类型的切片"></a>map类型的切片</h2><figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> userList=<span class="built_in">make</span>(<span class="keyword">map</span>[<span class="type">string</span>][<span class="type">string</span>],<span class="number">3</span>,<span class="number">3</span>)<span class="comment">//可以理解为userList里有三个map类型</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> userList[<span class="number">0</span>]!=<span class="literal">nil</span>&#123;</span><br><span class="line">    userList[<span class="number">0</span>][<span class="string">&quot;username&quot;</span>]=<span class="string">&quot;张三&quot;</span>,</span><br><span class="line">    userList[<span class="number">0</span>][<span class="string">&quot;age&quot;</span>]=<span class="string">&quot;20&quot;</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">if</span> userList[<span class="number">1</span>]!=<span class="literal">nil</span>&#123;</span><br><span class="line">    userList[<span class="number">0</span>][<span class="string">&quot;username&quot;</span>]=<span class="string">&quot;李四&quot;</span>,</span><br><span class="line">    userList[<span class="number">0</span>][<span class="string">&quot;age&quot;</span>]=<span class="string">&quot;19&quot;</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p><img src="https://gitee.com/in-the-knife/pic_bed/raw/master/2022-11--16/2022-11-26%20160218.jfif" alt="image"></p><h3 id="for-range-遍历"><a href="#for-range-遍历" class="headerlink" title="for range 遍历"></a>for range 遍历</h3><figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> _,v:=<span class="keyword">range</span> userList&#123;</span><br><span class="line">    <span class="keyword">for</span> k,v1:=<span class="keyword">range</span> v&#123;</span><br><span class="line">        fmt.Printf(<span class="string">&quot;%v:%v&quot;</span>,k,v1)</span><br><span class="line">    &#125;</span><br><span class="line">    fmt.Println()</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h2 id="切片类型的map"><a href="#切片类型的map" class="headerlink" title="切片类型的map"></a>切片类型的map</h2><figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> user1=<span class="built_in">make</span>(<span class="keyword">map</span>[<span class="type">string</span>][]<span class="type">string</span>)</span><br><span class="line">user1[<span class="string">&quot;name&quot;</span>]=[]<span class="type">string</span>&#123;</span><br><span class="line">    <span class="string">&quot;张三&quot;</span>，</span><br><span class="line">    <span class="string">&quot;李四&quot;</span>，</span><br><span class="line">&#125;</span><br><span class="line">user1[<span class="string">&quot;hobby&quot;</span>]=[]<span class="type">string</span>&#123;</span><br><span class="line">     <span class="string">&quot;sleep&quot;</span>,</span><br><span class="line">     <span class="string">&quot;code&quot;</span>,</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h3 id="forrange-遍历"><a href="#forrange-遍历" class="headerlink" title="forrange 遍历"></a>forrange 遍历</h3><figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> k,v:=<span class="keyword">range</span> user1&#123;</span><br><span class="line">    fmt.Printf(<span class="string">&quot;%v:&quot;</span>,k)</span><br><span class="line">    <span class="keyword">for</span> _,v1:=<span class="keyword">range</span> v&#123;</span><br><span class="line">        fmt.Printf(<span class="string">&quot;%v &quot;</span>,v1)</span><br><span class="line">    &#125;</span><br><span class="line">    fmt.Println()</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//hobby:sleep code </span></span><br><span class="line"><span class="comment">//name:张三 李四 </span></span><br></pre></td></tr></table></figure><h2 id="统计一个句子单词出现的次数"><a href="#统计一个句子单词出现的次数" class="headerlink" title="统计一个句子单词出现的次数"></a>统计一个句子单词出现的次数</h2><figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> str=<span class="string">&quot;how do you want to do something&quot;</span></span><br><span class="line">str1:=strings.split(str,<span class="string">&quot; &quot;</span>)</span><br><span class="line"><span class="keyword">var</span> map1=<span class="built_in">make</span>(<span class="keyword">map</span>[<span class="type">string</span>]<span class="type">int</span>)</span><br><span class="line"><span class="keyword">for</span> _,v:=<span class="keyword">range</span> str&#123;</span><br><span class="line">    map1[v]++;</span><br><span class="line">&#125;</span><br><span class="line">fmt.Print(map1)</span><br><span class="line"><span class="comment">//map[do:2 how:1 something:1 to:1 want:1 you:1]</span></span><br></pre></td></tr></table></figure>]]></content>
     
@@ -226,30 +186,6 @@
   </entry>
   
   <entry>
-    <title>picgo,gitee,hexo的一些问题</title>
-    <link href="http://riyuejuyjyj.github.io/posts/9a9d1238.html"/>
-    <id>http://riyuejuyjyj.github.io/posts/9a9d1238.html</id>
-    <published>2022-11-16T09:28:30.000Z</published>
-    <updated>2022-11-21T00:44:07.719Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="picgo与gitee生成图床时的一些问题"><a href="#picgo与gitee生成图床时的一些问题" class="headerlink" title="picgo与gitee生成图床时的一些问题"></a>picgo与gitee生成图床时的一些问题</h1><h2 id="1-picgo插件里搜索不gitee插件"><a href="#1-picgo插件里搜索不gitee插件" class="headerlink" title="1.picgo插件里搜索不gitee插件"></a>1.picgo插件里搜索不gitee插件</h2><p>搜索不到我们就本地安装<br>用命令行打开picgo.exe所在文件夹</p><p><img src="https://gitee.com/in-the-knife/pic_bed/raw/master/2022-11--16/image-20221116170557716.jfif" alt="image-20221116170557716"></p><p>输入</p><figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm i picgo-plugin-gitee-uploader</span><br></pre></td></tr></table></figure><p>安装完成后在当前生成node_modules文件夹</p><p><img src="https://gitee.com/in-the-knife/pic_bed/raw/master/2022-11--16/image-20221116170852122.jfif" alt="image-20221116170852122"></p><p>在插件设置里右上角有个下载符号点进去进到我们生成的node_modules文件里找到picgo-plugin-gitee-uploader文件件夹安装即可</p><p><img src="https://gitee.com/in-the-knife/pic_bed/raw/master/2022-11--16/image-20221116170932208.jfif" alt="https://gitee.com/in-the-knife/pic_bed/raw/master/2022-11--16/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202022-11-16%20171619.png"></p><p><img src="https://gitee.com/in-the-knife/pic_bed/raw/master/2022-11--16/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202022-11-16%20171619.jfif" alt="image-20221116171304869"></p><h2 id="2-上传到gitee后，有些图片hexo访问不出来"><a href="#2-上传到gitee后，有些图片hexo访问不出来" class="headerlink" title="2.上传到gitee后，有些图片hexo访问不出来"></a>2.上传到gitee后，有些图片hexo访问不出来</h2><blockquote><p>将图片格式改为jfif格式即可</p></blockquote>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1 id=&quot;picgo与gitee生成图床时的一些问题&quot;&gt;&lt;a href=&quot;#picgo与gitee生成图床时的一些问题&quot; class=&quot;headerlink&quot; title=&quot;picgo与gitee生成图床时的一些问题&quot;&gt;&lt;/a&gt;picgo与gitee生成图床时的一些问题&lt;/</summary>
-      
-    
-    
-    
-    <category term="problems" scheme="http://riyuejuyjyj.github.io/categories/problems/"/>
-    
-    
-    <category term="hexo,picgo,gitee" scheme="http://riyuejuyjyj.github.io/tags/hexo-picgo-gitee/"/>
-    
-  </entry>
-  
-  <entry>
     <title>1.go的一些基本知识</title>
     <link href="http://riyuejuyjyj.github.io/posts/ae1af740.html"/>
     <id>http://riyuejuyjyj.github.io/posts/ae1af740.html</id>
@@ -272,6 +208,30 @@
     
     
     <category term="go" scheme="http://riyuejuyjyj.github.io/tags/go/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>picgo,gitee,hexo的一些问题</title>
+    <link href="http://riyuejuyjyj.github.io/posts/9a9d1238.html"/>
+    <id>http://riyuejuyjyj.github.io/posts/9a9d1238.html</id>
+    <published>2022-11-16T09:28:30.000Z</published>
+    <updated>2022-11-21T00:44:07.719Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="picgo与gitee生成图床时的一些问题"><a href="#picgo与gitee生成图床时的一些问题" class="headerlink" title="picgo与gitee生成图床时的一些问题"></a>picgo与gitee生成图床时的一些问题</h1><h2 id="1-picgo插件里搜索不gitee插件"><a href="#1-picgo插件里搜索不gitee插件" class="headerlink" title="1.picgo插件里搜索不gitee插件"></a>1.picgo插件里搜索不gitee插件</h2><p>搜索不到我们就本地安装<br>用命令行打开picgo.exe所在文件夹</p><p><img src="https://gitee.com/in-the-knife/pic_bed/raw/master/2022-11--16/image-20221116170557716.jfif" alt="image-20221116170557716"></p><p>输入</p><figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm i picgo-plugin-gitee-uploader</span><br></pre></td></tr></table></figure><p>安装完成后在当前生成node_modules文件夹</p><p><img src="https://gitee.com/in-the-knife/pic_bed/raw/master/2022-11--16/image-20221116170852122.jfif" alt="image-20221116170852122"></p><p>在插件设置里右上角有个下载符号点进去进到我们生成的node_modules文件里找到picgo-plugin-gitee-uploader文件件夹安装即可</p><p><img src="https://gitee.com/in-the-knife/pic_bed/raw/master/2022-11--16/image-20221116170932208.jfif" alt="https://gitee.com/in-the-knife/pic_bed/raw/master/2022-11--16/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202022-11-16%20171619.png"></p><p><img src="https://gitee.com/in-the-knife/pic_bed/raw/master/2022-11--16/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202022-11-16%20171619.jfif" alt="image-20221116171304869"></p><h2 id="2-上传到gitee后，有些图片hexo访问不出来"><a href="#2-上传到gitee后，有些图片hexo访问不出来" class="headerlink" title="2.上传到gitee后，有些图片hexo访问不出来"></a>2.上传到gitee后，有些图片hexo访问不出来</h2><blockquote><p>将图片格式改为jfif格式即可</p></blockquote>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;picgo与gitee生成图床时的一些问题&quot;&gt;&lt;a href=&quot;#picgo与gitee生成图床时的一些问题&quot; class=&quot;headerlink&quot; title=&quot;picgo与gitee生成图床时的一些问题&quot;&gt;&lt;/a&gt;picgo与gitee生成图床时的一些问题&lt;/</summary>
+      
+    
+    
+    
+    <category term="problems" scheme="http://riyuejuyjyj.github.io/categories/problems/"/>
+    
+    
+    <category term="hexo,picgo,gitee" scheme="http://riyuejuyjyj.github.io/tags/hexo-picgo-gitee/"/>
     
   </entry>
   

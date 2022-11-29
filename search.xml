@@ -4,32 +4,6 @@
   
     
     <entry>
-      <title>test_deploy</title>
-      <link href="/posts/5e23fd4.html"/>
-      <url>/posts/5e23fd4.html</url>
-      
-        <content type="html"><![CDATA[<h1 id="test-deploty"><a href="#test-deploty" class="headerlink" title="test deploty"></a>test deploty</h1>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/posts/0.html"/>
-      <url>/posts/0.html</url>
-      
-        <content type="html"><![CDATA[<h1 id="woshisb"><a href="#woshisb" class="headerlink" title="woshisb"></a>woshisb</h1>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>Hello World</title>
       <link href="/posts/4a17b156.html"/>
       <url>/posts/4a17b156.html</url>
@@ -205,31 +179,6 @@
     
     
     <entry>
-      <title>picgo,gitee,hexo的一些问题</title>
-      <link href="/posts/9a9d1238.html"/>
-      <url>/posts/9a9d1238.html</url>
-      
-        <content type="html"><![CDATA[<h1 id="picgo与gitee生成图床时的一些问题"><a href="#picgo与gitee生成图床时的一些问题" class="headerlink" title="picgo与gitee生成图床时的一些问题"></a>picgo与gitee生成图床时的一些问题</h1><h2 id="1-picgo插件里搜索不gitee插件"><a href="#1-picgo插件里搜索不gitee插件" class="headerlink" title="1.picgo插件里搜索不gitee插件"></a>1.picgo插件里搜索不gitee插件</h2><p>搜索不到我们就本地安装<br>用命令行打开picgo.exe所在文件夹</p><p><img src="https://gitee.com/in-the-knife/pic_bed/raw/master/2022-11--16/image-20221116170557716.jfif" alt="image-20221116170557716"></p><p>输入</p><figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm i picgo-plugin-gitee-uploader</span><br></pre></td></tr></table></figure><p>安装完成后在当前生成node_modules文件夹</p><p><img src="https://gitee.com/in-the-knife/pic_bed/raw/master/2022-11--16/image-20221116170852122.jfif" alt="image-20221116170852122"></p><p>在插件设置里右上角有个下载符号点进去进到我们生成的node_modules文件里找到picgo-plugin-gitee-uploader文件件夹安装即可</p><p><img src="https://gitee.com/in-the-knife/pic_bed/raw/master/2022-11--16/image-20221116170932208.jfif" alt="https://gitee.com/in-the-knife/pic_bed/raw/master/2022-11--16/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202022-11-16%20171619.png"></p><p><img src="https://gitee.com/in-the-knife/pic_bed/raw/master/2022-11--16/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202022-11-16%20171619.jfif" alt="image-20221116171304869"></p><h2 id="2-上传到gitee后，有些图片hexo访问不出来"><a href="#2-上传到gitee后，有些图片hexo访问不出来" class="headerlink" title="2.上传到gitee后，有些图片hexo访问不出来"></a>2.上传到gitee后，有些图片hexo访问不出来</h2><blockquote><p>将图片格式改为jfif格式即可</p></blockquote>]]></content>
-      
-      
-      <categories>
-          
-          <category> problems </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> hexo,picgo,gitee </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>1.go的一些基本知识</title>
       <link href="/posts/ae1af740.html"/>
       <url>/posts/ae1af740.html</url>
@@ -247,6 +196,31 @@
         <tags>
             
             <tag> go </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>picgo,gitee,hexo的一些问题</title>
+      <link href="/posts/9a9d1238.html"/>
+      <url>/posts/9a9d1238.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="picgo与gitee生成图床时的一些问题"><a href="#picgo与gitee生成图床时的一些问题" class="headerlink" title="picgo与gitee生成图床时的一些问题"></a>picgo与gitee生成图床时的一些问题</h1><h2 id="1-picgo插件里搜索不gitee插件"><a href="#1-picgo插件里搜索不gitee插件" class="headerlink" title="1.picgo插件里搜索不gitee插件"></a>1.picgo插件里搜索不gitee插件</h2><p>搜索不到我们就本地安装<br>用命令行打开picgo.exe所在文件夹</p><p><img src="https://gitee.com/in-the-knife/pic_bed/raw/master/2022-11--16/image-20221116170557716.jfif" alt="image-20221116170557716"></p><p>输入</p><figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm i picgo-plugin-gitee-uploader</span><br></pre></td></tr></table></figure><p>安装完成后在当前生成node_modules文件夹</p><p><img src="https://gitee.com/in-the-knife/pic_bed/raw/master/2022-11--16/image-20221116170852122.jfif" alt="image-20221116170852122"></p><p>在插件设置里右上角有个下载符号点进去进到我们生成的node_modules文件里找到picgo-plugin-gitee-uploader文件件夹安装即可</p><p><img src="https://gitee.com/in-the-knife/pic_bed/raw/master/2022-11--16/image-20221116170932208.jfif" alt="https://gitee.com/in-the-knife/pic_bed/raw/master/2022-11--16/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202022-11-16%20171619.png"></p><p><img src="https://gitee.com/in-the-knife/pic_bed/raw/master/2022-11--16/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202022-11-16%20171619.jfif" alt="image-20221116171304869"></p><h2 id="2-上传到gitee后，有些图片hexo访问不出来"><a href="#2-上传到gitee后，有些图片hexo访问不出来" class="headerlink" title="2.上传到gitee后，有些图片hexo访问不出来"></a>2.上传到gitee后，有些图片hexo访问不出来</h2><blockquote><p>将图片格式改为jfif格式即可</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> problems </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo,picgo,gitee </tag>
             
         </tags>
       
