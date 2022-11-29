@@ -182,13 +182,6 @@
 
   
   <url>
-    <loc>http://riyuejuyjyj.github.io/tags/webgis/</loc>
-    <lastmod>2022-11-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://riyuejuyjyj.github.io/tags/gin/</loc>
     <lastmod>2022-11-29</lastmod>
     <changefreq>weekly</changefreq>
@@ -210,6 +203,20 @@
   </url>
   
   <url>
+    <loc>http://riyuejuyjyj.github.io/tags/webgis/</loc>
+    <lastmod>2022-11-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://riyuejuyjyj.github.io/tags/lives/</loc>
+    <lastmod>2022-11-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://riyuejuyjyj.github.io/tags/games/</loc>
     <lastmod>2022-11-29</lastmod>
     <changefreq>weekly</changefreq>
@@ -223,21 +230,7 @@
     <priority>0.2</priority>
   </url>
   
-  <url>
-    <loc>http://riyuejuyjyj.github.io/tags/lives/</loc>
-    <lastmod>2022-11-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
 
-  
-  <url>
-    <loc>http://riyuejuyjyj.github.io/categories/webgis/</loc>
-    <lastmod>2022-11-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
   
   <url>
     <loc>http://riyuejuyjyj.github.io/categories/gin/</loc>
@@ -261,7 +254,7 @@
   </url>
   
   <url>
-    <loc>http://riyuejuyjyj.github.io/categories/%E6%B8%B8%E6%88%8F/</loc>
+    <loc>http://riyuejuyjyj.github.io/categories/webgis/</loc>
     <lastmod>2022-11-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -269,6 +262,13 @@
   
   <url>
     <loc>http://riyuejuyjyj.github.io/categories/%E7%94%9F%E6%B4%BB/</loc>
+    <lastmod>2022-11-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://riyuejuyjyj.github.io/categories/%E6%B8%B8%E6%88%8F/</loc>
     <lastmod>2022-11-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
