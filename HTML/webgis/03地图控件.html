@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #container{
+            width: 60%;
+            height: 70%;
+        }
+        body,html{
+            width: 100%;
+            height: 100%;
+        }
+
+    </style>
+</head>
+<body>
+<button onclick="add_traffic()">显示实时路况</button>
+<button onclick="hide_traffic()">隐藏实时路况</button>
+<div id="container">
+
+</div>
+
+<script>
+    window._AMapSecurityConfig={
+        securityJsCode: '5457423e5abb27ad53e22ca37bd02c5d'
+    }
+</script>
+<script src="https://webapi.amap.com/maps?v=2.0&key=2ab6693026920bfdfcc64a96e81df848"></script>
+<script>
+    const map=new AMap.Map("container",{
+        center: [104.30,30.4311],//设置地图中心点经度与纬度
+        zoom: 10,//地图的缩放比例(3~20)
+        viewMode: '3D',//默认俯视角度
+        pitch: 45 //倾斜角度
+    });
+
+    //加载控件
+    AMap.plugin(["AMap.ToolBar","AMap.Scale","AMap.HawkEye","AMap.MapType","AMap.Geolocation","AMap.ControlBar"],function (){
+        //toolbar（工具体）：集成了缩放，平移，定位
+        //scale是比例尺
+        //HawkEye：右下角缩略
+        //mapytpe:切换图层
+        map.addControl(new AMap.ToolBar())
+        map.addControl(new AMap.Scale())
+        map.addControl(new AMap.HawkEye())
+        map.addControl(new AMap.MapType())
+        map.addControl(new AMap.ControlBar())
+        map.addControl(new AMap.Geolocation());// 在图面添加定位控件，用来获取和展示用户主机所在的经纬度位置
+    })
+
+
+
+
+    var traffic = new AMap.TileLayer.Traffic({
+        autoRefresh: true, //自动刷新
+        interval: 180,//刷新间隔
+    })//交通路况图层
+    function add_traffic(){
+        map.add(traffic)
+    }
+    function hide_traffic(){
+        map.remove(traffic)
+    }
+</script>
+</body>
+</html>
