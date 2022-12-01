@@ -227,7 +227,14 @@
 
   
   <url>
-    <loc>http://riyuejuyjyj.github.io/tags/gin/</loc>
+    <loc>http://riyuejuyjyj.github.io/tags/hexo-picgo-gitee/</loc>
+    <lastmod>2022-12-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://riyuejuyjyj.github.io/tags/webgis/</loc>
     <lastmod>2022-12-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -241,14 +248,7 @@
   </url>
   
   <url>
-    <loc>http://riyuejuyjyj.github.io/tags/hexo-picgo-gitee/</loc>
-    <lastmod>2022-12-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://riyuejuyjyj.github.io/tags/webgis/</loc>
+    <loc>http://riyuejuyjyj.github.io/tags/gin/</loc>
     <lastmod>2022-12-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -278,7 +278,14 @@
 
   
   <url>
-    <loc>http://riyuejuyjyj.github.io/categories/gin/</loc>
+    <loc>http://riyuejuyjyj.github.io/categories/problems/</loc>
+    <lastmod>2022-12-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://riyuejuyjyj.github.io/categories/webgis/</loc>
     <lastmod>2022-12-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -292,14 +299,7 @@
   </url>
   
   <url>
-    <loc>http://riyuejuyjyj.github.io/categories/problems/</loc>
-    <lastmod>2022-12-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://riyuejuyjyj.github.io/categories/webgis/</loc>
+    <loc>http://riyuejuyjyj.github.io/categories/gin/</loc>
     <lastmod>2022-12-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
