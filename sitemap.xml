@@ -220,57 +220,57 @@
 
   <url>
     <loc>http://riyuejuyjyj.github.io/</loc>
-    <lastmod>2022-12-01</lastmod>
+    <lastmod>2022-12-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
-    <loc>http://riyuejuyjyj.github.io/tags/hexo-picgo-gitee/</loc>
-    <lastmod>2022-12-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://riyuejuyjyj.github.io/tags/webgis/</loc>
-    <lastmod>2022-12-01</lastmod>
+    <loc>http://riyuejuyjyj.github.io/tags/gin/</loc>
+    <lastmod>2022-12-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://riyuejuyjyj.github.io/tags/go/</loc>
-    <lastmod>2022-12-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://riyuejuyjyj.github.io/tags/gin/</loc>
-    <lastmod>2022-12-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://riyuejuyjyj.github.io/tags/lifes/</loc>
-    <lastmod>2022-12-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://riyuejuyjyj.github.io/tags/lives/</loc>
-    <lastmod>2022-12-01</lastmod>
+    <lastmod>2022-12-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://riyuejuyjyj.github.io/tags/games/</loc>
-    <lastmod>2022-12-01</lastmod>
+    <lastmod>2022-12-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://riyuejuyjyj.github.io/tags/hexo-picgo-gitee/</loc>
+    <lastmod>2022-12-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://riyuejuyjyj.github.io/tags/webgis/</loc>
+    <lastmod>2022-12-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://riyuejuyjyj.github.io/tags/lives/</loc>
+    <lastmod>2022-12-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://riyuejuyjyj.github.io/tags/lifes/</loc>
+    <lastmod>2022-12-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -278,43 +278,43 @@
 
   
   <url>
-    <loc>http://riyuejuyjyj.github.io/categories/problems/</loc>
-    <lastmod>2022-12-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://riyuejuyjyj.github.io/categories/webgis/</loc>
-    <lastmod>2022-12-01</lastmod>
+    <loc>http://riyuejuyjyj.github.io/categories/gin/</loc>
+    <lastmod>2022-12-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://riyuejuyjyj.github.io/categories/go/</loc>
-    <lastmod>2022-12-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://riyuejuyjyj.github.io/categories/gin/</loc>
-    <lastmod>2022-12-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://riyuejuyjyj.github.io/categories/%E7%94%9F%E6%B4%BB/</loc>
-    <lastmod>2022-12-01</lastmod>
+    <lastmod>2022-12-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://riyuejuyjyj.github.io/categories/%E6%B8%B8%E6%88%8F/</loc>
-    <lastmod>2022-12-01</lastmod>
+    <lastmod>2022-12-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://riyuejuyjyj.github.io/categories/problems/</loc>
+    <lastmod>2022-12-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://riyuejuyjyj.github.io/categories/webgis/</loc>
+    <lastmod>2022-12-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://riyuejuyjyj.github.io/categories/%E7%94%9F%E6%B4%BB/</loc>
+    <lastmod>2022-12-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
