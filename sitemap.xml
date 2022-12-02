@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://riyuejuyjyj.github.io/posts/a9520.html</loc>
+    
+    <lastmod>2022-12-02</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://riyuejuyjyj.github.io/posts/10bb64ab.html</loc>
     
     <lastmod>2022-12-02</lastmod>
@@ -225,6 +234,13 @@
   </url>
   
   <url>
+    <loc>http://riyuejuyjyj.github.io/tags/%E7%94%9F%E6%B4%BB/</loc>
+    <lastmod>2022-12-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://riyuejuyjyj.github.io/tags/gin/</loc>
     <lastmod>2022-12-02</lastmod>
     <changefreq>weekly</changefreq>
@@ -256,6 +272,13 @@
   
   <url>
     <loc>http://riyuejuyjyj.github.io/categories/go/</loc>
+    <lastmod>2022-12-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://riyuejuyjyj.github.io/categories/%E7%94%9F%E6%B4%BB/</loc>
     <lastmod>2022-12-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
