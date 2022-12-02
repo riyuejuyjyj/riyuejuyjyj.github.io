@@ -1,30 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-    <style>
-        #container{
-            width: 900px;
-            height: 900px;
-        }
-    </style>
-</head>
-<body>
-<button onclick="add_traffic()">显示实时路况</button>
-<button onclick="hide_traffic()">隐藏实时路况</button>
-<div id="container">
-
-</div>
-
-<script>
-    window._AMapSecurityConfig={
-    securityJsCode: '5457423e5abb27ad53e22ca37bd02c5d'
-}
-</script>
-<script src="https://webapi.amap.com/maps?v=2.0&key=2ab6693026920bfdfcc64a96e81df848"></script>
-<script>
-    const map=new AMap.Map("container",{
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><title>Title</title><style>#container{width:900px;height:900px}</style></head><body><button onclick="add_traffic()">显示实时路况</button> <button onclick="hide_traffic()">隐藏实时路况</button><div id="container"></div><script>window._AMapSecurityConfig={securityJsCode:"5457423e5abb27ad53e22ca37bd02c5d"}</script><script src="https://webapi.amap.com/maps?v=2.0&key=2ab6693026920bfdfcc64a96e81df848"></script><script>const map=new AMap.Map("container",{
         center: [104,30],//设置地图中心点经度与纬度
         zoom: 5,//地图的缩放比例(3~20)
         viewMode: '3D',//默认俯视角度
@@ -39,7 +13,4 @@
     }
     function hide_traffic(){
         map.remove(traffic)
-    }
-</script>
-</body>
-</html>
+    }</script></body></html>
