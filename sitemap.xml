@@ -65,15 +65,6 @@
   </url>
   
   <url>
-    <loc>http://riyuejuyjyj.github.io/abc.html</loc>
-    
-    <lastmod>2022-12-02</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://riyuejuyjyj.github.io/about/index.html</loc>
     
     <lastmod>2022-12-02</lastmod>
@@ -84,6 +75,15 @@
   
   <url>
     <loc>http://riyuejuyjyj.github.io/categories/index.html</loc>
+    
+    <lastmod>2022-12-02</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://riyuejuyjyj.github.io/abc.html</loc>
     
     <lastmod>2022-12-02</lastmod>
     
