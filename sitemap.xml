@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://riyuejuyjyj.github.io/posts/6a391210.html</loc>
+    
+    <lastmod>2022-12-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://riyuejuyjyj.github.io/posts/10bb64ab.html</loc>
     
     <lastmod>2022-12-11</lastmod>
@@ -194,15 +203,6 @@
     <loc>http://riyuejuyjyj.github.io/categories/index.html</loc>
     
     <lastmod>2022-12-11</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://riyuejuyjyj.github.io/posts/6a391210.html</loc>
-    
-    <lastmod>2022-12-03</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
