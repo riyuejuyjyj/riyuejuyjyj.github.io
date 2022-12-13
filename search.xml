@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Go-09结构体</title>
+      <link href="/posts/b72373e2.html"/>
+      <url>/posts/b72373e2.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="Go-09结构体"><a href="#Go-09结构体" class="headerlink" title="Go-09结构体"></a>Go-09结构体</h1><h2 id="结构体的定义"><a href="#结构体的定义" class="headerlink" title="结构体的定义"></a>结构体的定义</h2><figure class="highlight go"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">package</span> main</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> <span class="string">&quot;fmt&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">type</span> Person <span class="keyword">struct</span>&#123;</span><br><span class="line">   Name <span class="type">string</span></span><br><span class="line">   Age  <span class="type">int</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">   <span class="keyword">var</span> p1 Person </span><br><span class="line">   p1.Name=<span class="string">&quot;张三&quot;</span></span><br><span class="line">   p1.Age=<span class="number">18</span></span><br><span class="line">   fmt.Printf(<span class="string">&quot;%#v&quot;</span>,p1)</span><br><span class="line"></span><br><span class="line">   p2:=Person&#123;</span><br><span class="line">    Name:<span class="string">&quot;李四&quot;</span>，</span><br><span class="line">    Age:<span class="number">20</span>,</span><br><span class="line">   &#125;</span><br><span class="line">   fmt.Printf(<span class="string">&quot;%#v&quot;</span>,p2)</span><br><span class="line"></span><br><span class="line">   p3:=<span class="built_in">new</span>(Person)</span><br><span class="line">   p3.Name=<span class="string">&quot;王五&quot;</span></span><br><span class="line">   p3.Age=<span class="number">20</span></span><br><span class="line">   fmt.Printf(<span class="string">&quot;%#v&quot;</span>,p3)</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>从上面来看定义还是十分的简单的在此说明一下结构体名大写表示允许外部访问，变量名大小表示公有变量.</p><h2 id="结构体定义方法"><a href="#结构体定义方法" class="headerlink" title="结构体定义方法"></a>结构体定义方法</h2><h3 id="自定义方法"><a href="#自定义方法" class="headerlink" title="自定义方法"></a>自定义方法</h3><h3 id="继承父类方法和属性"><a href="#继承父类方法和属性" class="headerlink" title="继承父类方法和属性"></a>继承父类方法和属性</h3><figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> main</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> <span class="string">&quot;fmt&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">type</span> Father <span class="keyword">struct</span>&#123;</span><br><span class="line">    FirstName <span class="type">string</span></span><br><span class="line">    LastName  <span class="type">string</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">func</span><span class="params">(father Father)</span></span> Print()&#123;</span><br><span class="line">    fmt.Printf(<span class="string">&quot;your father&#x27;s name is:%v $v&quot;</span>,father.FirstName,father.LastName)</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">type</span> Son <span class="keyword">struct</span>&#123;</span><br><span class="line">    FirstName <span class="type">string</span></span><br><span class="line">    Father <span class="comment">//结构体继承</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">func</span><span class="params">(son Son)</span></span> Print()&#123;</span><br><span class="line">    fmt.Printf(<span class="string">&quot;your name is:%v $v&quot;</span>,son.FirstName,son.LastName)</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="keyword">var</span> son1 = Son&#123;</span><br><span class="line">      FirstName:<span class="string">&quot;Jack&quot;</span>,</span><br><span class="line">      Father: Father&#123;</span><br><span class="line">        FirstName:<span class="string">&quot;Sam&quot;</span>  </span><br><span class="line">        LastName:<span class="string">&quot;Smith&quot;</span></span><br><span class="line">      &#125;</span><br><span class="line">    &#125;</span><br><span class="line">   son1.Print()</span><br><span class="line">   son1.Father.Print()</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>比较好懂在此不再解释</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> go </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> go </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>witch on the holy night</title>
       <link href="/posts/b1397760.html"/>
       <url>/posts/b1397760.html</url>
